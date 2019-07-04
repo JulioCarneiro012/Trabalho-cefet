@@ -1,0 +1,76 @@
+<p align="center"><span style="font-family: Arial, serif;"><span style="font-size: x-large;">Projeto de indicador de troca de oleo </span></span></p>
+<p><span style="font-family: Arial, serif;"> Este projeto do Ardu&iacute;no Uno &eacute; feito para indicar ao motorista quando trocar o &oacute;leo do carro por meio de um contador programado com a media de km que &eacute; necess&aacute;ria a manuten&ccedil;&atilde;o da troca de oleo </span></p>// Programa : Contador utilizando display 7 segmentos,
+//            TCRT5000  e botao reset
+// Autor : Arduino e Cia  
+  
+// Carrega a biblioteca SevSeg
+#include "SevSeg.h"   
+
+SevSeg sevseg;  
+
+// Cria variaveis globais  
+int contador = 0;  
+
+// Ligado ao pino "coletor" do sensor óptico - Porta A5 ao Arduino  
+int pinosensor = 19; 
+// Pino ligado ao botao de reset
+int pino_botao_reset = A0;
+// Armazena o valor lido pelo sensor optico
+int leitura; 
+// Armazena o estado do botao reset
+int estadobotao = 0; 
+
+void setup() 
+{  
+  // Utilizando display de anodo comum, 
+  // pinos dos digitos : 10 a 13  
+  // Pino dos segmentos : 2 a 9  
+  sevseg.Begin(1,13,10,11,12,2,3,4,5,6,7,8,9);  
+  // Controla a luminosidade - 0 a 100  
+  sevseg.Brightness(20);  
+  // Define o pino do sensor optico como entrada 
+  pinMode(pinosensor, INPUT);  
+  // Define o pino do botao reset como entrada
+  pinMode(pino_botao_reset, INPUT);
+}  
+   
+void loop() 
+{  
+  sevseg.PrintOutput();  
+  sevseg.NewNum(contador,(byte) 2);
+  
+  // Verifica se o botao reset foi pressionado
+  estadobotao = digitalRead(pino_botao_reset);
+  if (estadobotao != 1)
+  {
+    // Zera o contador
+    contador = 0;
+  }
+
+  // Le as informações do pino do sensor optico
+  leitura = digitalRead(pinosensor);
+  // Verifica se o objeto foi detectado pelo sensor
+  if (leitura != 1) 
+  {  
+    // Incrementa o valor do contador
+    contador = contador++;   
+
+    // Loop caso o objeto pare sobre o sensor 
+    while(digitalRead(pinosensor) != 1)  
+    {  
+     sevseg.PrintOutput();  
+     sevseg.NewNum(contador,(byte) 2);  
+    }  
+  }   
+}
+<p><span style="font-family: Arial, serif;">A troca de &oacute;leo do carro &eacute; feita de 5,000 km em 5,000 km sendo assim quando o hodometro do carro chega perto de 4,800 km a luz do painel acende indicando ao motorista que &eacute; necess&aacute;rio uma troca de &oacute;leo </span></p>
+<p><span style="font-family: Arial, serif;">Ap&oacute;s a troca de &oacute;leo basta o motorista acionar o bot&atilde;o situado ao lado do volante do carro para reiniciar o contador e repetir o processo </span></p>
+<p><span style="font-family: Arial, serif;">Para a montagem do projeto &eacute; nescessario</span></p>
+<p><span style="color: #222222;"> <span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;"><span style="font-family: Arial, serif;">-3 resistores de 1 K (um para cada d&iacute;gito/anodo)</span></span></span></span></p>
+<p><span style="color: #222222;"><span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;">-1 resistor de 220 ohms (led IR do sensor &oacute;ptico)</span></span></span></p>
+<p><span style="color: #222222;"><span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;">-1 resistor de 10 K (ligado ao sensor &oacute;ptico - receptor)</span></span></span></p>
+<p><span style="color: #222222;"><span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;">-1 resistor de 10 K (pull up do bot&atilde;o de reset)</span></span></span></p>
+<p><span style="color: #222222;"><span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;">-Display 7 segmentos de 6 d&iacute;gitos CPS03631BR</span></span></span></p>
+<p><span style="color: #222222;"><span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;">-Sensor &oacute;ptico reflexivo TCRT5000</span></span></span></p>
+<p><span style="color: #222222;"><span style="font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;"><span style="font-size: small;">-1 push-button</span></span></span></p>
+<p><br /> </p>
