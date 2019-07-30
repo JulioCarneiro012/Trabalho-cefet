@@ -7,7 +7,9 @@
 <p>Sum&aacute;rio</p>
 <p>Pag 3.............................................................Componentes do projeto</p>
 <p>Pag 4.............................................................Programa</p>
-<p>Pag 5.............................................................Finaliza&ccedil;&atilde;o</p>
+<p>Pag 5.............................................................Vantagens do projeto</p>
+<p>Pag 6.............................................................Considera&ccedil;&otilde;es finais</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -34,16 +36,6 @@
 </ul>
 <p><br /> </p>
 <p>&nbsp;</p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
 <p><em>&nbsp;</em></p>
 <p><em>&nbsp;</em></p>
 <p><em>&nbsp;</em></p>
@@ -152,3 +144,12 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Ap&oacute;s a troca de &oacute;leo basta o motorista acionar o bot&atilde;o situado ao lado do volante do carro para reiniciar o contador e repetir o processo</p>
+<p>Vantagens da troca de &oacute;leo</p>
+<p>A lubrifica&ccedil;&atilde;o correta &eacute; fundamental para a vida &uacute;til do motor e deve fazer parte da rotina de manuten&ccedil;&atilde;o do ve&iacute;culo. A fun&ccedil;&atilde;o b&aacute;sica do &oacute;leo &eacute;, que com sua viscosidade, se evite atrito entre as pe&ccedil;as do motor, impedindo que se desgastem ou at&eacute; travem o motor. Por essa raz&atilde;o, a troca deve ser feita regularmente, pois o &oacute;leo vai aos poucos perdendo sua viscosidade e ader&ecirc;ncia.</p>
+<p>E com o contador o condutor do autom&oacute;vel ser&aacute; avisado sempre que o &oacute;leo do seu carro deve ser trocado prolongando assim a vida do motor</p>
+<p>Considera&ccedil;&otilde;es finais</p>
+<p>Autor do projeto:J&uacute;lio Carneiro</p>
+<p>Docente: Epaminondas Lage</p>
+<p>Programa do contador: Ardu&iacute;no e cia</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
