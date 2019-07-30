@@ -4,39 +4,10 @@
 <h1>Projeto de indicador de troca de oleo</h1>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<img src="https://www.google.com.br/search?hl=pt-BR&amp;authuser=0&amp;tbm=isch&amp;source=hp&amp;biw=1366&amp;bih=657&amp;ei=crI_XdeJO6y15OUPwrCl4Ag&amp;q=luz+de+oleo+no+painel&amp;oq=luz+de+oleo&amp;gs_l=img.3.0.35i39j0l9.1308.3378..3955...0.0..0.244.2057.2j10j3......0....1..gws-wiz-img.....0.E5loFUXVn-w#imgrc=BaqCJFWENGXnbM:" alt="" width="100" height="150" /></p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>Sum&aacute;rio</p>
 <p>Pag 3.............................................................Componentes do projeto</p>
 <p>Pag 4.............................................................Programa</p>
 <p>Pag 5.............................................................Finaliza&ccedil;&atilde;o</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -100,8 +71,9 @@
 <p><em>&nbsp;</em></p>
 <p><em>&nbsp;</em></p>
 <p>&nbsp;</p>
+<p style="text-align: center;"><em>Programa</em></p>
+
 <p><em>// Programa : Contador utilizando display 7 segmentos,</em></p>
-<p><em>//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TCRT5000&nbsp; e botao reset</em></p>
 <p><em>// Autor : Arduino e Cia&nbsp; </em></p>
 <p>&nbsp;</p>
 <p><em>// Carrega a biblioteca SevSeg</em></p>
