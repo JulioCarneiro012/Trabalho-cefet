@@ -13,14 +13,6 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>Componentes</p>
 <p>Este projeto do Ardu&iacute;no Uno &eacute; feito para indicar ao motorista quando trocar o &oacute;leo do carro por meio de um contador programado com a media de quilometros que &eacute; necess&aacute;ria a manuten&ccedil;&atilde;o da troca de oleo</p>
 <p>&nbsp;A lista de material desse circuito fica assim :</p>
@@ -37,32 +29,9 @@
 <p><br /> </p>
 <p>&nbsp;</p>
 <p><em>&nbsp;</em></p>
+<p><img src="http://4.bp.blogspot.com/-1AycO6WOj7U/VL6lp0lOQGI/AAAAAAAADVY/lTB1RPZHutw/s1600/Contador-display-7-segmentos-botao-reset.png" /></p>
 <p><em>&nbsp;</em></p>
 <p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p><em>&nbsp;</em></p>
-<p>&nbsp;</p>
 <p style="text-align: center;"><em>Programa</em></p>
 
 <p><em>// Programa : Contador utilizando display 7 segmentos,</em></p>
@@ -134,13 +103,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p><img src="https://i.vrum.com.br/KmAttjsQDI4XhVs7ZWo541ifFP4=/675x/smart/imgsapp.estadodeminas.vrum.com.br/app/noticia_128576568202/2011/09/21/44535/20110921175647477943a.jpg" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Ap&oacute;s a troca de &oacute;leo basta o motorista acionar o bot&atilde;o situado ao lado do volante do carro para reiniciar o contador e repetir o processo</p>
